@@ -42,5 +42,12 @@ if ($conn->query($sql) === TRUE) {
     echo "Registration successful";
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
+  
 }
+header("Location: success.php");
+exit(); 
 
+else{
+    echo "The application was unsuccessful kindly try back later"
+}
+?>
