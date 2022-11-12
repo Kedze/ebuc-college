@@ -38,7 +38,7 @@
             <div class="col-lg-12">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="https://livingwatersebuc.com/"><i class="fa fa-home"></i> Home</a></li>
-                    <li><a href="#"><i class="fa fa-th-list"></i> Online Application</a></li>
+                    <!-- <li><a href="#"><i class="fa fa-th-list"></i> Online Application</a></li>
                     <li><a href="#"><i class="fa fa-bar-chart"></i></i> Payment Status</a></li>
                     <li><a href="#"><i class="fa fa-key"></i> Forget PIN</a></li>
                     <li><a href="#"><i class="fa fa-arrow-circle-o-down"></i> Admit Card Download</a></li>
@@ -48,7 +48,7 @@
                             <li><a href="#">Offline Aplication Form</a></li>
                         </ul>
                     </li>
-                    <li><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-link"></i> Link <span class="caret"></span></a>
+                    <li><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-link"></i> Link <span class="caret"></span></a> -->
                         <ul class="dropdown-menu">
                             <li><a href="#">University Home</a></li>
                             <li><a href="#">Admission Home</a></li>
@@ -212,13 +212,13 @@
                         <div class="col-sm-3">
                             <select name="initial_programn" id="program" class="form-control" required>
                                 <option value="" disabled selected>Select</option>
-                                <option value="Pastorial Leadership">Pastorial Leadership</option>
-                                <option value="Associate">Associate</option>
-                                <option value="Diplomacy">Diplomacy</option>
-                                <option value="Masters">Masters</option>
-                                <option value="Doctorate">Doctorate</option>
-                                <option value="Bachelor">Bachelor's</option>
-                                <option value="Theology">Theology</option>
+                                <option value="Pastorial Leadership (2years)">Pastoral Leadership (2 years)</option>
+                                <option value="Associate (13months">Associate (13 months)</option>
+                                <option value="Diplomacy (18months)">Diplomacy (18 months)</option>
+                                <option value="Masters (2years)">Masters (2 years)</option>
+                                <option value="Doctorate (4years 2months)">Doctorate (4 years 2 months)</option>
+                                <option value="Bachelor (4years)">Bachelor's (4 years)</option>
+                                <option value="Theology (3years)">Theology (3 years)</option>
                                 <option value="OTHER">OTHER</option>
                             </select>
                         </div>
@@ -237,7 +237,7 @@
                         <div class="form-group">
                             <label for="marital_status" class="control-label col-sm-3">Marital Status :</label>
                             <div class="col-sm-2">
-                                <select name="marital_status" id="marital_status" class="form-control">
+                                <select name="marital_status" id="marital_status" class="form-control" required>
                                     <option value="">Select</option>
                                     <option value="Single">Single</option>
                                     <option value="Married">Married</option>
@@ -248,7 +248,7 @@
                             </div>
                             <label for="nationality" class="control-label col-sm-2">Nationality :</label>
                             <div class="col-sm-3">
-                                <select name="nationality" id="nationality" class="form-control">
+                                <select name="nationality" id="nationality" class="form-control" required>
                                     <option value="" disabled selected>Select</option>
                                     <option value="BANGLADESHI" selected>Bangladeshi</option>
                                     <option value="Ghanaian" selected>Ghanaian</option>
@@ -322,7 +322,7 @@
                                             <div class="form-group">
                                                 <label for="ssc_exam_type" class="control-label col-sm-4">Country of Passport :</label>
                                                 <div class="col-sm-6">
-                                                    <input type="text" name="country_of_passport" id="country_of_passport" class="form-control">
+                                                    <input type="text" name="country_of_passport" id="country_of_passport" class="form-control" required>
                                                 </div>
                                             </div>
 
@@ -330,7 +330,7 @@
                                                 <label for="country_of_birth" class="control-label col-sm-4">Country of Birth :</label>
                                                 <div class="col-sm-8">
                                                     <div class="col-sm-8">
-                                                        <input type="text" name="country_of_birth" id="country_of_birth" class="form-control">
+                                                        <input type="text" name="country_of_birth" id="country_of_birth" class="form-control" required>
                                                     </div>
                                                 </div>
                                             </div>
@@ -338,7 +338,7 @@
                                             <div class="form-group">
                                                 <label for="religious_denomination" class="control-label col-sm-4">Religious Denomination :</label>
                                                 <div class="col-sm-8">
-                                                    <input type="text" name="religious_denomination" id="religious" class="form-control">
+                                                    <input type="text" name="religious_denomination" id="religious" class="form-control" required>
                                                 </div>
                                             </div>
 
@@ -346,7 +346,7 @@
                                                 <label class="control-label col-sm-4" for="ministry">Are you in the Ministry? YES/NO. If Yes how many years</label>
                                                 <div class="col-sm-8">
                                                     <div class="col-sm-7">
-                                                        <input type="text" name="ministry" id="ministry" class="form-control">
+                                                        <input type="text" name="ministry" id="ministry" class="form-control" required>
                                                     </div>
                                                 </div>
                                             </div>
@@ -354,7 +354,7 @@
                                                 <label class="control-label col-sm-4" for="name_of_church">Name of Church/Ministry</label>
                                                 <div class="col-sm-8">
                                                     <div class="col-sm-7">
-                                                        <input type="text" name="name_of_church" id="" class="form-control">
+                                                        <input type="text" name="name_of_church" id="" class="form-control" required>
                                                     </div>
                                                 </div>
                                             </div>
@@ -362,7 +362,7 @@
                                                 <label class="control-label col-sm-4" for="ministry_address">Ministry Address</label>
                                                 <div class="col-sm-8">
                                                     <div class="col-sm-7">
-                                                        <input type="text" name="ministry_address" id="ministry_address" class="form-control">
+                                                        <input type="text" name="ministry_address" id="ministry_address" class="form-control" required>
                                                     </div>
                                                 </div>
                                             </div>
@@ -425,7 +425,7 @@
                                             <div class="form-group">
                                                 <label for="date_of_ordination" class="control-label col-sm-3">Date of Ordination :</label>
                                                 <div class="col-sm-3">
-                                                    <select name="date_of_ordination" id="date_of_ordination" class="form-control">
+                                                    <select name="date_of_ordination" id="date_of_ordination" class="form-control" required>
                                                         <option selected disabled value="">Day</option>
                                                         <option value="01">01</option>
                                                         <option value="02">02</option>
@@ -462,7 +462,7 @@
                                                     <span class="help-inline"></span>
                                                 </div>
                                                 <div class="col-sm-3">
-                                                    <select name="ordination_month" class="form-control">
+                                                    <select name="ordination_month" class="form-control" required>
                                                         <option selected disabled value="">Month</option>
                                                         <option value="01">January</option>
                                                         <option value="02">February</option>
@@ -479,7 +479,7 @@
                                                     </select>
                                                 </div>
                                                 <div class="col-sm-3">
-                                                    <select name="ordination_year" class="form-control">
+                                                    <select name="ordination_year" class="form-control" required>
                                                         <option disabled selected value="">Year</option>
                                                         <option value="1955">1955</option>
                                                         <option value="1956">1956</option>
@@ -556,21 +556,21 @@
                                             <div class="form-group">
                                                 <label for="hsc_roll_no" class="control-label col-sm-4">Where were you Ordained? :</label>
                                                 <div class="col-sm-8">
-                                                    <input type="text" name="place_of_ordination" id="place_of_ordination" class="form-control">
+                                                    <input type="text" name="place_of_ordination" id="place_of_ordination" class="form-control" required>
                                                 </div>
                                             </div>
 
                                             <div class="form-group">
                                                 <label for="hsc_roll_no" class="control-label col-sm-4">By whom/Organisation :</label>
                                                 <div class="col-sm-8">
-                                                    <input type="text" name="ordinator" id="ordinator" class="form-control">
+                                                    <input type="text" name="ordinator" id="ordinator" class="form-control" required>
                                                 </div>
                                             </div>
 
                                             <div class="form-group">
                                                 <label for="ssc_group" class="control-label col-sm-4">What is your highest level of education :</label>
                                                 <div class="col-sm-8">
-                                                    <select name="highest_education" id="highest_education" class="form-control">
+                                                    <select name="highest_education" id="highest_education" class="form-control" required>
                                                         <option selected disabled value="">Select One</option>
                                                         <option value="Masters">Masters</option>
                                                         <option value="Bachelors">Bachelors</option>
@@ -600,7 +600,7 @@
                                 <div class="col-lg-12">
                                     <div class="panel panel-default">
                                         <div class="panel-heading">
-                                            <h5 class="panel-title text-center">REFERENCES (Provode two references who can attest to the declarations/affirmation you have made above)</h5>
+                                            <h5 class="panel-title text-center">REFERENCES (Provide two references who can attest to the declarations/affirmation you have made above)</h5>
                                         </div>
                                         <div class="panel-body">
                                             <div class="form-group">
@@ -671,7 +671,7 @@
                                     </div><br>
                                     <div class="row">
                                         <div class="col-lg-2 col-lg-offset-5">
-                                            <input type="submit" class="btn btn-success btn-lg btn-block" value="Submit">
+                                            <input type="submit" onclick="registration()" class="btn btn-success btn-lg btn-block" value="Submit">
                                         </div>
                                     </div>
                                 </div>
