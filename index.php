@@ -63,7 +63,7 @@
 	      </button>
 	      <form action="#" class="searchform order-lg-last">
           <div>
-              <li><a href="#Coronavirus">Coronavirus</a></li>
+              <li><a href="https://www.worldometers.info/coronavirus/">Coronavirus</a></li>
             </div>
         </form>
         
@@ -87,7 +87,7 @@
 	        	<button class="subnavbtn"><a href="#woodruff" class="nav-link">ACADEMICS</a></button>
                      <div class="subnav-content">
                             <a href="#">Online School</a> 
-                            <a href="#careers">On Campus Gegress</a>
+                            <a href="#careers">On Campus Degress</a>
                             <a href="#careers">Online Degrees</a>
                             <a href="#team">International Students</a>
                         </div>
@@ -370,7 +370,7 @@
       <div class="container">
         <div class="row justify-content-center mb-5 pb-2">
           <div class="col-md-8 text-center heading-section ftco-animate">
-            <h2 class="mb-4">Other Campuses accross the Continent</h2>
+            <h2 class="mb-4">Join our students across the Continent</h2>
             <p style="font-family: Times New Roman">Our mission to serve you well has not changed. Currently, all of our classroom communities are actively engaging online. We would love for you to join us On Campus in the Fall or Online year-round.</p>
           </div>
         </div>
@@ -378,56 +378,44 @@
           <div class="col-md-12">
             <div class="carousel-testimony owl-carousel">
               <div class="item">
-                <div class="testimony-wrap d-flex">
-                  <div class="user-img mr-4" style="background-image: url(images/camp1.jpg)">
-                  </div>
+              <div class="testimony-wrap d-flex">
                   <div class="text ml-2">
-                  	<span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
+                  	<span class="quote d-flex align-items-center justify-content-center">  
                     </span>
-                    <p style="font-family: Times New Roman">Well situated campus located in the heart of the country, with well establish facilities and trained teachers.</p>
+                    <img src="images/slider/stud_1.jpg" alt="students">
                     <p class="name">Virgina Campus</p>
                     <span class="position">USA</span>
                   </div>
                 </div>
               </div>
               <div class="item">
-                <div class="testimony-wrap d-flex">
-                  <div class="user-img mr-4" style="background-image: url(images/camp2.jpg)">
-                  </div>
+              <div class="testimony-wrap d-flex">
                   <div class="text ml-2">
-                  	<span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
+                  	<span class="quote d-flex align-items-center justify-content-center">  
                     </span>
-                    <p style="font-family: Times New Roman">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <img src="images/slider/stud_2.jpg" alt="students">
                     <p class="name">Texas</p>
                     <span class="position">USA</span>
                   </div>
                 </div>
               </div>
               <div class="item">
-                <div class="testimony-wrap d-flex">
-                  <div class="user-img mr-4" style="background-image: url(images/.jpg)">
-                  </div>
+              <div class="testimony-wrap d-flex">
                   <div class="text ml-2">
-                  	<span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
+                  	<span class="quote d-flex align-items-center justify-content-center">  
                     </span>
-                    <p style="font-family: Times New Roman">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <img src="images/slider/stud_3.jpg" alt="students">
                     <p class="name">Medellin</p>
                     <span class="position">Colombia</span>
                   </div>
                 </div>
               </div>
               <div class="item">
-                <div class="testimony-wrap d-flex">
-                  <div class="user-img mr-4" style="background-image: url(images/.jpg)">
-                  </div>
+              <div class="testimony-wrap d-flex">
                   <div class="text ml-2">
-                  	<span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
+                  	<span class="quote d-flex align-items-center justify-content-center">  
                     </span>
-                    <p style="font-family: Times New Roman">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <img src="images/slider/stud_4.jpg" alt="students">
                     <p class="name">Sydney</p>
                     <span class="position">Australia</span>
                   </div>
@@ -435,13 +423,10 @@
               </div>
               <div class="item">
                 <div class="testimony-wrap d-flex">
-                  <div class="user-img mr-4" style="background-image: url(images/.jpg)">
-                  </div>
                   <div class="text ml-2">
-                  	<span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
+                  	<span class="quote d-flex align-items-center justify-content-center">  
                     </span>
-                    <p style="font-family: Times New Roman">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <img src="images/slider/stud_5.jpg" alt="students">
                     <p class="name">Vancouver</p>
                     <span class="position">Canada</span>
                   </div>
@@ -489,87 +474,6 @@
         </div>
     	</div>
     </section>
-
-<!--	<section class="ftco-section bg-light">
-			<div class="container">
-				<div class="row justify-content-center mb-5 pb-2">
-          <div class="col-md-8 text-center heading-section ftco-animate">
-            <h2 class="mb-4"><span>Recent</span> Blog</h2>
-            <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
-          </div>
-        </div>
-				<div class="row">
-          <div class="col-md-6 col-lg-4 ftco-animate">
-            <div class="blog-entry">
-              <a href="blog-single.html" class="block-20 d-flex align-items-end" style="background-image: url('images/image_1.jpg');">
-								<div class="meta-date text-center p-2">
-                  <span class="day">26</span>
-                  <span class="mos">June</span>
-                  <span class="yr">2019</span>
-                </div>
-              </a>
-              <div class="text bg-white p-4">
-                <h3 class="heading"><a href="#">Skills To Develop Your Child Memory</a></h3>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                <div class="d-flex align-items-center mt-4">
-	                <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
-	                <p class="ml-auto mb-0">
-	                	<a href="#" class="mr-2">Admin</a>
-	                	<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
-	                </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 ftco-animate">
-            <div class="blog-entry">
-              <a href="blog-single.html" class="block-20 d-flex align-items-end" style="background-image: url('images/image_2.jpg');">
-								<div class="meta-date text-center p-2">
-                  <span class="day">26</span>
-                  <span class="mos">June</span>
-                  <span class="yr">2019</span>
-                </div>
-              </a>
-              <div class="text bg-white p-4">
-                <h3 class="heading"><a href="#">Skills To Develop Your Child Memory</a></h3>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                <div class="d-flex align-items-center mt-4">
-	                <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
-	                <p class="ml-auto mb-0">
-	                	<a href="#" class="mr-2">Admin</a>
-	                	<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
-	                </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 ftco-animate">
-            <div class="blog-entry">
-              <a href="blog-single.html" class="block-20 d-flex align-items-end" style="background-image: url('images/image_3.jpg');">
-								<div class="meta-date text-center p-2">
-                  <span class="day">26</span>
-                  <span class="mos">June</span>
-                  <span class="yr">2019</span>
-                </div>
-              </a>
-              <div class="text bg-white p-4">
-                <h3 class="heading"><a href="#">Skills To Develop Your Child Memory</a></h3>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                <div class="d-flex align-items-center mt-4">
-	                <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
-	                <p class="ml-auto mb-0">
-	                	<a href="#" class="mr-2">Admin</a>
-	                	<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
-	                </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-			</div>
-		</section>-->
-
-		
 
 		<section class="ftco-gallery">
     	<div class="container-wrap">
@@ -624,7 +528,7 @@
           </div>
           <div class="col-md-6 col-lg-3">
             <div class="ftco-footer-widget mb-5">
-              <h2 class="ftco-heading-2">News and Events</h2>
+              <h2 class="ftco-heading-2">Happenings</h2>
               <div class="block-21 mb-4 d-flex">
                 <a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a>
                 <div class="text">
@@ -688,9 +592,8 @@
                 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
                 <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
                 <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-youtube"></span></a></li>
                 <li class="ftco-animate"><a href="#"><span class="icon-linkedin"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-pinterest"></span></a></li>
+                
               </ul><br>
                 <p style="font-family: Times New Roman">  &nbsp;  &nbsp; &nbsp; Living Waters University &copy; <script>document.write(new Date().getFullYear());</script> | All rights reserved | Powered by Sigil Tech. &nbsp; &nbsp;&nbsp; &nbsp;<a href="#privacy">Privacy policy</a> &nbsp;&nbsp;| &nbsp;<a href="#cookies">Cookies settings</a> &nbsp;&nbsp;| &nbsp;<a href="#site">About this site</a></p>
                 
