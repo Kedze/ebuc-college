@@ -49,8 +49,8 @@
         <h1>Success</h1> 
         <p>We received your registration details;<br/> we'll be in touch shortly!</p>
       </div>
-
-      <p>Redirecting in 5 seconds...
+      <br>
+      <p>System is redirecting...</p>
       
       
     </body>
